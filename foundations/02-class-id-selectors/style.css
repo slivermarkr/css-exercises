@@ -1,0 +1,16 @@
+.odd {
+    background-color:lightpink;
+    font-family: Verdana, sans-serif;
+}
+#number1 {
+    color: blue;
+    font-size: 36px;
+    font-family: Verdana, sans-serif;
+}
+.samesize {
+    font-size: 24px;
+}
+#number2 {
+    background-color: lightgreen;
+    font-weight: bold;
+}
