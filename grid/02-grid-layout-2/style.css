@@ -49,3 +49,20 @@ html {
   background-color: #393f4d;
   grid-column: 1 / 3;
 }
+/*my code 
+### Self Check
+- The gap is 15px
+- The grid has two columns
+- The grid has four rows
+- The grid tracks do not use static sizes (no pixels!)
+- The second column is three times larger than the other
+- The third row is five times larger than the others
+- The rows and columns stretch wider when making the browser window bigger
+- The rows and columns stretch taller when making the browser window smaller
+*/
+.container {
+  display: grid;
+  grid-template-rows: 1fr 1fr 5fr 1fr;
+  grid-template-columns: 1fr 3fr;
+  gap: 15px;
+}
