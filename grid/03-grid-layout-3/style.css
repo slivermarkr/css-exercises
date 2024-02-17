@@ -142,8 +142,14 @@
   grid-row: 2 / 4;
   display: grid;
   gap: 50px;
-  justify-content: center;
-  align-content: space-around;
+  /* justify-content: center;
+  align-content: space-around; */
+  justify-content: stretch;
+  align-content: stretch;
+}
+.sidebar > div {
+  display: grid;
+  align-items: center;
 }
 .footer {
   grid-column:1 / 3;
